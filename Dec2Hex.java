@@ -7,6 +7,11 @@ class Dec2Hex
 
     public static void main(String args[])
     {
+		if (args.length == 0) 
+        {
+			 System.err.println("Integer Argument is required.");
+			 return;
+		}
         if (args.length > 0) 
         {
             try 
